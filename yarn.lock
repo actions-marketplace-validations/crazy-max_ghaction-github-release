@@ -916,6 +916,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@octokit/openapi-types@npm:^17.1.2":
+  version: 17.1.2
+  resolution: "@octokit/openapi-types@npm:17.1.2"
+  checksum: 859516026a5a6c21d343608c29b137874cf5780adabf1e4a01d121dd1050c47e400f7723d179ed2fc691688d48c8740f70435107dd7bc4c51120447c52539cf7
+  languageName: node
+  linkType: hard
+
 "@octokit/plugin-paginate-rest@npm:^2.17.0":
   version: 2.21.3
   resolution: "@octokit/plugin-paginate-rest@npm:2.21.3"
@@ -951,15 +958,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/plugin-throttling@npm:^4.3.2":
-  version: 4.3.2
-  resolution: "@octokit/plugin-throttling@npm:4.3.2"
+"@octokit/plugin-throttling@npm:^5.2.1":
+  version: 5.2.1
+  resolution: "@octokit/plugin-throttling@npm:5.2.1"
   dependencies:
-    "@octokit/types": ^8.0.0
+    "@octokit/types": ^9.0.0
     bottleneck: ^2.15.3
   peerDependencies:
     "@octokit/core": ^4.0.0
-  checksum: 2c9ef9be2cc1b9cb01d4d9f04e82246ccaa41ab05a4dc315f926b11abf5a99e3a38a98756fbb7f9e8d4c4f5e43f052c1dbd11c062017096dd943b8896c9e414c
+  checksum: 1ba6e0c33b5af5c45209653ec0a6dc7359cf89852cbd421859e8322a44569088af8c4926e41e51637ecd9415f04a7f58b54f4c1b2f1fda1502675087fe9ae472
   languageName: node
   linkType: hard
 
@@ -1003,6 +1010,15 @@ __metadata:
   dependencies:
     "@octokit/openapi-types": ^14.0.0
   checksum: 1a0197b2c4c522ac90f145e02b3f8cb048a47f71c2c6bdbf021a03db7dd30ca92a899c0186acb401337f218efe44e60d33cc1cc68715b622bb75bc1a4e79515d
+  languageName: node
+  linkType: hard
+
+"@octokit/types@npm:^9.0.0":
+  version: 9.2.2
+  resolution: "@octokit/types@npm:9.2.2"
+  dependencies:
+    "@octokit/openapi-types": ^17.1.2
+  checksum: 6bbf7e55c167f683ee68430f07be5d22e9ab4db92645872887bb040e09bf419d629600b811b3e502d70f7dfb6c2c11dbbc6239e0612e9a0b994673aeb5100d8b
   languageName: node
   linkType: hard
 
@@ -2597,7 +2613,7 @@ __metadata:
     "@actions/core": ^1.10.0
     "@actions/github": ^5.1.1
     "@octokit/plugin-retry": ^4.0.3
-    "@octokit/plugin-throttling": ^4.3.2
+    "@octokit/plugin-throttling": ^5.2.1
     "@types/glob": ^8.0.0
     "@types/mime": ^3.0.1
     "@types/node": ^18.11.9
